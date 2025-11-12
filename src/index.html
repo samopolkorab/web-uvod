@@ -3,12 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Môj prvý projekt</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Moja Landing Page</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Ahoj, svet!</h1>
-  <p>Moja prvá webová stránka.</p>
+  <header>
+    <nav>
+      <h1>MojaZnačka</h1>
+      <ul>
+        <li><a href="#home">Domov</a></li>
+        <li><a href="#galeria">Galéria</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="hero">
+    <h2>Vitajte na našej stránke</h2>
+    <p>Objavte to najlepšie, čo ponúkame.</p>
+    <a href="#galeria" class="btn">Pozrieť galériu</a>
+  </section>
+
+
+  <section id="galeria">
+    <h2>Naša galéria</h2>
+    <div class="grid">
+      <img src="images/photo1.jpg" alt="Foto 1">
+      <img src="images/photo2.jpg" alt="Foto 2">
+      <img src="images/photo3.jpg" alt="Foto 3">
+    </div>
+  </section>
+
+
+  <footer>
+    <p>&copy; 2025 MojaZnačka. Všetky práva vyhradené.</p>
+  </footer>
 
 
   <script src="app.js"></script>
